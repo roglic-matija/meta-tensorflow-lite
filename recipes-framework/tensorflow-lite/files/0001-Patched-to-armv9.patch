@@ -24,7 +24,7 @@ index 71046d08131..c6f7df87e3f 100644
      CXXFLAGS += \
 -      -march=armv7-a \
 -      -mfpu=neon-vfpv4 \
-+      -march=armv9-a \
++      -march=armv7-a \
 +      -mfpu=neon-fp16 \
        -funsafe-math-optimizations \
        -ftree-vectorize \
@@ -33,7 +33,7 @@ index 71046d08131..c6f7df87e3f 100644
      CFLAGS += \
 -      -march=armv7-a \
 -      -mfpu=neon-vfpv4 \
-+      -march=armv9-a \
++      -march=armv7-a \
 +      -mfpu=neon-fp16 \
        -funsafe-math-optimizations \
        -ftree-vectorize \
