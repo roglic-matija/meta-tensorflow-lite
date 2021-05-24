@@ -14,6 +14,7 @@ SRC_URI = " \
     file://001-TensorFlow-Lite_Makefile.patch \
     file://001-Remove-toolchain-setup-and-pybind11.patch \
     file://update-google-ruy-gcc11-fix.patch \
+    file://0001-Patched-to-armv9.patch \
 "
 
 SRC_URI_append_riscv64 += " \
